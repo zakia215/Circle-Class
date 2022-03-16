@@ -36,17 +36,17 @@ double Circle::getCircumference() {
 int main() {
     Circle smallCircle;
     smallCircle.setRadius(5);
-    smallCircle.getRadius();
-    smallCircle.getArea();
-    smallCircle.getCircumference();
+    cout << "The radius is " << smallCircle.getRadius() << endl;
+    cout << "Area: " << smallCircle.getArea() << endl;
+    cout << "Circumference: " << smallCircle.getCircumference() << endl;
     Circle mediumCircle;
-    mediumCircle.setRadius(5);
-    mediumCircle.getRadius();
-    mediumCircle.getArea();
-    mediumCircle.getCircumference();
+    mediumCircle.setRadius(16);
+    cout << "The radius is " << mediumCircle.getRadius() << endl;
+    cout << "Area: " << mediumCircle.getArea() << endl;
+    cout << "Circumference: " << mediumCircle.getCircumference() << endl;
     Circle bigCircle;
-    bigCircle.setRadius(5);
-    bigCircle.getRadius();
-    bigCircle.getArea();
-    bigCircle.getCircumference();
+    bigCircle.setRadius(78);
+    cout << "The radius is " << bigCircle.getRadius() << endl;
+    cout << "Area: " << bigCircle.getArea() << endl;
+    cout << "Circumference: " << bigCircle.getCircumference() << endl;
 }
