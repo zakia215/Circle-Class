@@ -36,6 +36,17 @@ double Circle::getCircumference() {
 int main() {
     Circle smallCircle;
     smallCircle.setRadius(5);
+    smallCircle.getRadius();
+    smallCircle.getArea();
+    smallCircle.getCircumference();
     Circle mediumCircle;
+    mediumCircle.setRadius(5);
+    mediumCircle.getRadius();
+    mediumCircle.getArea();
+    mediumCircle.getCircumference();
     Circle bigCircle;
+    bigCircle.setRadius(5);
+    bigCircle.getRadius();
+    bigCircle.getArea();
+    bigCircle.getCircumference();
 }
