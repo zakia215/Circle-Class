@@ -1,5 +1,6 @@
 #define _USE_MATH_DEFINES
 
+#include <iomanip>
 #include <iostream>
 #include <cmath>
 
@@ -35,6 +36,7 @@ double Circle::getCircumference() {
 
 int main() {
     Circle smallCircle;
+    cout << fixed << setprecision(4);
     smallCircle.setRadius(5);
     cout << "The radius is " << smallCircle.getRadius() << endl;
     cout << "Area: " << smallCircle.getArea() << endl;
